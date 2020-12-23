@@ -67,4 +67,4 @@ if __name__ == "__main__" :
     DB = create_DB(path , label , save_path , im_size )
     #print(DB.keys())
     #print(DB.x_ray[:])
-    print(DB.index[0])
+    #print(DB.index[0])
