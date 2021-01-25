@@ -19,8 +19,8 @@ batch_size=128
 x_dataset = []
 y_dataset = []
 '''
-for image in os.listdir('../input/covid19-radiography-database/COVID-19 Radiography Database/Viral Pneumonia/'):
-    image = cv2.imread('../input/covid19-radiography-database/COVID-19 Radiography Database/Viral Pneumonia/'+image, cv2.IMREAD_GRAYSCALE)
+for image in os.listdir('database/covid/'):
+    image = cv2.imread('database/covid/'+image, cv2.IMREAD_GRAYSCALE)
     image = cv2.resize(image, (WIDTH,HEIGHT))
     #image = image/255.
     x_dataset.append(image)
@@ -63,9 +63,8 @@ for image in os.listdir('../input/covid19-radiography-database/COVID-19 Radiogra
     '''
     
     
-
-for image in os.listdir('../input/covid19-radiography-database/COVID-19 Radiography Database/NORMAL'):
-    image = cv2.imread('../input/covid19-radiography-database/COVID-19 Radiography Database/NORMAL/'+image, cv2.IMREAD_GRAYSCALE)
+for image in os.listdir('database/normal/'):
+    image = cv2.imread('database/normal/'+image, cv2.IMREAD_GRAYSCALE)
     image = cv2.resize(image, (WIDTH,HEIGHT))
     #image = image/255.
     x_dataset.append(image)
