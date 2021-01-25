@@ -8,3 +8,15 @@ Through our rapport, we are examining the solutions developed by the data scient
 * *CNN_deeper* contains the upgraded model of CNN.
 * *research_paper_covid_dual.ipynb* contains the test made for the dual architecture deployed.
 * **database** contains the classes that we used.
+
+## Quick usage guide
+
+`https://github.com/Intelligent-Systems-MSc/mla-project-mla-team-2.git`
+
+`pip install opencv-python`
+
+`pip install tensorflow`
+
+`pip install -U scikit-learn`
+
+`python3 CNN.py`
