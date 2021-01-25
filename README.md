@@ -20,3 +20,7 @@ Through our rapport, we are examining the solutions developed by the data scient
 `pip install -U scikit-learn`
 
 `python3 CNN.py`
+
+
+## Grad-CAM kaggle source notebook :
+https://www.kaggle.com/yonghan/aptos-blindness-detection-with-grad-cam/comments
